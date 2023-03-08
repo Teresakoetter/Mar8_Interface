@@ -1,6 +1,8 @@
 package org.example;
 
 public class ComputerScienceStudent implements Citizen{
+    String adress;
+
 
     public ComputerScienceStudent() {
     }
