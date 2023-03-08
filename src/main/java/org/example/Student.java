@@ -1,12 +1,14 @@
 package org.example;
 
-public class Student {
+public abstract class Student {
 
     protected String getIdentityCardNumber;
     protected String adress;
 
     public Student() {
     }
+
+    public abstract boolean wearsGlasses(boolean answer);
 
     public Student(String getIdentityCardNumber, String adress) {
         this.getIdentityCardNumber = getIdentityCardNumber;

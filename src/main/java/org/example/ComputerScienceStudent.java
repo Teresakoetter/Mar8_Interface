@@ -8,6 +8,11 @@ public class ComputerScienceStudent extends Student implements Citizen{
     public ComputerScienceStudent() {
     }
 
+    @Override
+    public boolean wearsGlasses(boolean answer) {
+        return answer;
+    }
+
     public ComputerScienceStudent(String getIdentityCardNumber, String adress, int nerdLevel) {
         super(getIdentityCardNumber, adress);
         this.nerdLevel = nerdLevel;
