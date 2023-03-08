@@ -1,17 +1,17 @@
 package org.example;
 
-public class BiologyStudent implements Citizen {
+public class BiologyStudent extends Student {
 
     public BiologyStudent() {
     }
 
-    @Override
-    public String getAdress() {
-        return null;
+    public void tellMeAboutYourSubject(){
+        System.out.println("Molecules!");
     }
 
     @Override
-    public int getIdentityCardNumber() {
-        return 0;
+    public String toString() {
+        return "BiologyStudent{}";
     }
+
 }

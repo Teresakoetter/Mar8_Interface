@@ -1,6 +1,6 @@
 package org.example;
 
-public class ComputerScienceStudent extends Student implements Citizen{
+public class ComputerScienceStudent extends StudentAbstract implements Citizen{
     int nerdLevel;
 
 
